@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* font-family: "Work Sans", sans-serif; */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#hero {
+  height: 735px;
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .hero-content {
+  width: 812px;
+}
+
+#hero .hero-content .subtitle {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 12px;
+}
+
+#hero .hero-content .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+#hero .hero-content .description {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+
+.btn-containter {
+  text-align: center;
+}
+.btn {
+  padding: 16px 25px 16px 25px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  background: rgb(82, 195, 3);
+  cursor: pointer;
+}
+
+#card-box {
+  width: 1056px;
+  margin: 133px auto;
+}
+
+#card-box .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 12px;
+}
+
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.card-container {
+  font-family: Work Sans;
+  margin-bottom: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container .card {
+  max-width: 339px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .image-box {
+  margin-bottom: 25px;
+  max-width: 339px;
+}
+
+.card .image-box img {
+  max-width: 100%;
+}
+
+.card .shop {
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 11px 25px 11px 25px;
+  margin-bottom: 19px;
+}
+
+.offer-details {
+  text-align: center;
+}
+
+.offer-details .offer {
+  margin-bottom: 19px;
+}
+
+#foods {
+  background-color: white;
+  max-width: 1536px;
+  height: 536px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#foods .food-details img {
+  max-width: 768px;
+  max-height: 536px;
+  margin-right: 71px;
+}
+#foods .text {
+  align-items: center;
+  justify-content: center;
+  width: 708px;
+  margin: 90px 0px;
+}
+#foods .text .heading {
+  padding: 0;
+  margin: 19px 0px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#foods .text .description {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+#foods .contact {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 38px 0px 25px 0px;
+  padding: 24px 8px 24px 8px;
+}
+
+#foods .social-media {
+  width: 208px;
+  height: 32px;
+  display: flex;
+  margin-left: 235px;
+  gap: 10px;
+}
